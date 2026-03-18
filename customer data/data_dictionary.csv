@@ -1,0 +1,16 @@
+Column Name,Data Type,Non-Null Count,Meaning,Business Relevance
+Transaction ID,object,11911,Unique ID for transaction,Track transactions
+Customer ID,object,11911,Unique ID for customer,Track customer behavior
+Category,object,11911,Product category purchased,Understand popular categories
+Item,object,11911,Name of the item purchased,Identify top-selling items
+Price Per Unit,float64,11911,Price per unit of item,Calculate sales metrics
+Quantity,float64,11911,Number of items purchased,Analyze purchase quantities
+Total Spent,float64,11911,Total amount spent by customer,Revenue analysis
+Payment Method,object,11911,Payment method used,Payment method analysis
+Location,object,11911,Location of customer,Regional sales analysis
+Transaction Date,datetime64[ns],11911,Date of transaction,Time-based sales trends
+Discount Applied,object,11911,Discount applied,Impact of discounts on sales
+Year,int32,11911,Year extracted from Transaction Date,Analyze yearly trends
+Month,int32,11911,Month extracted from Transaction Date,Analyze monthly trends
+Day,int32,11911,Day extracted from Transaction Date,Analyze daily trends
+Weekday,object,11911,Weekday extracted from Transaction Date,Analyze weekday trends
